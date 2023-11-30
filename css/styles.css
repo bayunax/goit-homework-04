@@ -534,6 +534,9 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     display: flex;
     align-items: baseline;
     margin-left: 0;
+    
+}
+.footer-social-icons {
     margin-right: 120px;
 }
 .footer-logo {
