@@ -461,6 +461,7 @@ color:  #2E2F42;
 .third-section-link {
     width: calc((100% - 48px) /3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     
 }
 .third-section-title {
@@ -520,7 +521,7 @@ color:  #2E2F42;
 }
  .third-section-link:hover .text-overlay {
 transform: translateY(0%);
-box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+
 
 }
 /*----------------------- /third section------------------------------- */
@@ -586,7 +587,7 @@ color:#F4F4FD;
 .socil-item-footer {
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .social-icons-footer {
     display: flex;
@@ -596,6 +597,7 @@ color:#F4F4FD;
     background-color: #4D5AE5;
      width: 40px;
     height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icons {
 gap: 16px;
@@ -612,4 +614,5 @@ padding-top: 100px;
 .social-icons-footer:hover,
 .social-icons-footer:focus {
     background-color: #31d0aa;
+    
 }
